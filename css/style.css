@@ -1,28 +1,13 @@
-/*CSS: CASCADE STYLE SHEET */
-/*PARA HACER COMENTARIOS*/
-/*UN  SELECTOR ES UNA FORMA DE SELECCIONAR UN ELEMENTO DE html*/
-/*no hay que olvidarse del punto y coma*/
-
-body{background-color: rgb(4, 5, 26);}
-
-body{background-color: blue;}
-
-/*en css se lee de arriba hacia abajo, lo que está al final es lo que tiene prioridad.*/
-
-/* ALT + Z para que el código se ajuste al tamaño de la ventana*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* con esto voy a traer todo lo que ese enlace tiene */
 
 *{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    /* para que los bordes no excedan el tamaño de los elementos*/
     margin: 0px;
     padding: 0px;
 }
 
-/* con este lo voy a aplicar a toooooda mi página */
 
 body{
     background-color: rgb(243, 200, 236);
@@ -60,9 +45,6 @@ nav{
     display: flex;
     gap: 50px;
 }
-/*todas las propiedades del flex box solo se van a aplicar si llamo al display: flex */
-
-/* cuando queremos llamar a una clase tenemos que poner un punto.*/
 
 .caja{
     width: 200px;
@@ -94,27 +76,3 @@ nav{
     word-spacing: 10px;
     text-decoration: none;
 }
-
-/* Investigar flex box y estudiar.
-
-hacer el coso de behance
-https://www.behance.net/gallery/129774689/Web-Design-Minimal-Navbars?tracking_source=search_projects%7Cnavbar+minimal
-
-
-ver funciones de html
-
-radio
-
-submit
-
-time
-
-search
-
-datetime-local
-
-password
-
-color
-
-*/
